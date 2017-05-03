@@ -1,0 +1,102 @@
+/* Here goes your CSS */
+
+.container {
+  width: 500px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(255,255,255,0.4);
+  margin:20px auto;
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.card ul {
+  padding-left: 0;
+}
+
+.card li{
+  list-style: none;
+  display: inline;
+  padding: 20px;
+}
+
+.card p {
+  padding-bottom: 20px;
+}
+
+.card img {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.subcard td {
+  margin:20px auto;
+  padding-bottom: 50px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#icon_size {
+  font-size: 30px;
+}
+
+body {
+  /*background-image: url(http://pre00.deviantart.net/adb8/th/pre/i/2014/136/b/1/drowning_sofa_for_background_use_by_annamae22-d7im4r3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  margin:0;
+  padding:0;
+  background: url(http://pre00.deviantart.net/adb8/th/pre/i/2014/136/b/1/drowning_sofa_for_background_use_by_annamae22-d7im4r3.jpg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+h1 {
+color: #22C7A9;
+font-size: 20px;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+}
+
+h2 {
+color: #082822;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: Light Italic;
+}
+
+h3 {
+color: #0D493E);
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: Thin;
+}
+
+p {
+color: #07251F;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: Regular;
+}
+
+a {
+  color: #22C7A9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FCCF4D;
+  text-decoration: underline;
+}
+
